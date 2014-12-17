@@ -1,0 +1,70 @@
+--SELECT * FROM BONURI
+
+-- TERT 
+INSERT INTO NCEXPORT
+SELECT 
+A.NDS,
+A.JURNAL,
+A.DATAI,
+A.DATAI,
+A.NDP,
+A.CTFZ,
+A.EXPLICATIE,
+A.TOTAL,
+'C',
+A.NDP,
+'',
+A.DENFZ,
+'',0,'','',0,
+A.CODFISCAL,
+A.DENFZ,
+'','','',0,
+A.NDS,
+0,0,'',0
+FROM BONURI AS A
+
+--CHELTUIALA
+INSERT INTO NCEXPORT
+SELECT 
+A.NDS,
+A.JURNAL,
+A.DATAI,
+'',
+A.NDP,
+A.CTCH,
+A.EXPLICATIE,
+A.BAZA,
+'D',
+'',
+'',
+A.DENCH,
+'',0,'','',0,
+'',
+'',
+'',A.BTVA,'',0,
+A.NDS,
+0,0,'',0
+FROM BONURI AS A
+
+--TVA
+INSERT INTO NCEXPORT
+SELECT 
+A.NDS,
+A.JURNAL,
+A.DATAI,
+'',
+A.NDP,
+A.CTTVA,
+A.EXPLICATIE,
+A.TVA,
+'D',
+'',
+'',
+A.DENTVA,
+'',0,'','',0,
+'',
+'',
+'',A.TTVA,'',0,
+A.NDS,
+0,0,'',0
+FROM BONURI AS A
