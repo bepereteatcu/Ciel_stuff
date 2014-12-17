@@ -1,0 +1,33 @@
+CREATE TABLE [NCEXPORT] (
+	[NDS] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[JURNAL] [char] (3) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DATAI] [char] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DATAS] [char] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[NDP] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CONT] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[EXPLICATIE] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[VALOARE] [char] (19) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TIP] [char] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[NRMARCA] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CODBUGET] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TITLUCONT] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CODDEVIZA] [char] (5) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CURS] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[VDDEVIZE] [char] (19) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[VCDEVIZE] [char] (19) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[VDEVIZE] [char] (19) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CODFISCAL] [char] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[NUMETERT] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DENBUGET] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[OPTTVA] [char] (4) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CODBUGAUX] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[C1] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[NDS2] [char] (3) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[C4] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[C5] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[C6] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[C7] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL 
+) ON [PRIMARY]
+GO
+
+
