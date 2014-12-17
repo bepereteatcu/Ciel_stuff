@@ -1,0 +1,23 @@
+CREATE TABLE [BONURI] (
+	[NDS] [char] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[JURNAL] [char] (3) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DATAI] [char] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DATAS] [char] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[NDP] [char] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CTFZ] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CTCH] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CTTVA] [char] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[EXPLICATIE] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DENFZ] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DENCH] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[DENTVA] [char] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[CODFISCAL] [char] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TOTAL] [char] (19) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[BAZA] [char] (19) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TVA] [char] (19) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[BTVA] [char] (2) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TTVA] [char] (2) COLLATE SQL_Latin1_General_CP1_CI_AS NULL 
+) ON [PRIMARY]
+GO
+
+
