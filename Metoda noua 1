@@ -1,0 +1,23 @@
+Alta metoda de editare : 
+
+IMport fisier in excel , export partea a doua CSV
+In fisiier text replace virgula cu punct 
+IMport in baza cu 
+BULK INSERT dbo.BONURI
+FROM 'C:\City_Bonuri_Import_punct.txt' 
+WITH ( FIELDTERMINATOR =';', FIRSTROW = 0 )
+
+nu uita truncate inainte 
+
+transfer normal in ncexport
+
+nc export view data 
+
+sort by NDS
+
+export cu : 
+Delimited text 
+Field separator : , 
+Encloser : <nimic>
+Line terminator: \r\n
+Null value: <nimic>
