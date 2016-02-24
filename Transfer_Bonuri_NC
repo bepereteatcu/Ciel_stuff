@@ -39,9 +39,12 @@ A.BAZA,
 '',
 A.DENCH,
 '',0,'','',0,
+'',  /*cod fiscal */
+'',   /*denumire furnizor */
 '',
+53,  /*cod tva ch */
 '',
-'',A.BTVA,'',0,
+0,
 A.NDS,
 0,0,'',0
 FROM BONURI AS A
@@ -64,7 +67,9 @@ A.DENTVA,
 '',0,'','',0,
 '',
 '',
-'',A.TTVA,'',0,
+'',
+54, /* cod tva  cont tva */
+'',0,
 A.NDS,
 0,0,'',0
 FROM BONURI AS A
